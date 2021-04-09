@@ -1,0 +1,23 @@
+class Overload
+{
+    void show()
+    {
+      System.out.println("Method Overloading\n ");  
+    }
+    void show(int a, int b)
+    {
+        System.out.println("Sum is:"+(a+b));
+    }
+}
+
+public class Main
+{
+	public static void main(String[] args)
+	{
+	    
+	   Overload obj=new Overload();
+	   obj.show();
+	   obj.show(12,67);
+	}
+    
+}
