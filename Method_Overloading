@@ -4,9 +4,13 @@ class Overload
     {
       System.out.println("Method Overloading\n ");  
     }
-    void show(int a, int b)
+    void show(int l, int b)
     {
-        System.out.println("Sum is:"+(a+b));
+        System.out.println("Area of rectangle: "+(l*b));
+    }
+    void show(int r)
+    {
+      System.out.println("\n Area of Circle: "+(3.14*r*r));  
     }
 }
 
@@ -18,6 +22,7 @@ public class Main
 	   Overload obj=new Overload();
 	   obj.show();
 	   obj.show(12,67);
+	   obj.show(5);
 	}
     
 }
