@@ -1,0 +1,25 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args)
+	{
+	    
+	    Scanner in=new Scanner(System.in);
+	    
+	    System.out.println("Enter  Stuent number: ");
+	    byte num=in.nextByte();
+	    
+	 
+	    System.out.println("\nEnter  Stuent Name: ");
+	    String name=in.next();
+	    
+	  
+	     System.out.println("\nEnter  Stuent marks: ");
+	     float marks=in.nextFloat();
+	     
+	    System.out.println("\n Student number: "+num);
+	    System.out.println("\nStuent marks: "+name);
+	    System.out.println("\nStuent marks: "+marks);
+	}
+    
+}
